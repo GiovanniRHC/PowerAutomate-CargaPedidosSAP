@@ -1,0 +1,555 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_uiflow_1": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "new_FlujoEscritorio_Demo_PRD"
+        },
+        "api": {
+          "name": "shared_uiflow"
+        }
+      },
+      "shared_office365_1": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "new_O365Outlook_Demo"
+        },
+        "api": {
+          "name": "shared_office365"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "Recurrence": {
+          "recurrence": {
+            "frequency": "Day",
+            "interval": 1,
+            "timeZone": "SA Pacific Standard Time",
+            "schedule": {
+              "hours": [
+                "12",
+                "15",
+                "18",
+                "23"
+              ],
+              "minutes": [
+                30
+              ]
+            }
+          },
+          "evaluatedRecurrence": {
+            "frequency": "Day",
+            "interval": 1,
+            "timeZone": "SA Pacific Standard Time",
+            "schedule": {
+              "hours": [
+                "12",
+                "15",
+                "18",
+                "23"
+              ],
+              "minutes": [
+                30
+              ]
+            }
+          },
+          "metadata": {
+            "operationMetadataId": "1a1c7501-63c6-40c7-926f-4a921c1ecfba"
+          },
+          "type": "Recurrence"
+        }
+      },
+      "actions": {
+        "Inicializar_variable_|_Instancia_SAP": {
+          "runAfter": {
+            "CorreoSoporteEmpresaDemo": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "4bb1399f-cd12-48dd-b83a-395eb8912164"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "InstanciaSAP",
+                "type": "string",
+                "value": "1"
+              }
+            ]
+          },
+          "description": " 0: Acceso a QA, 1: Acceso a PRD"
+        },
+        "Inicializar_variable_|_Usuario_SAP": {
+          "runAfter": {
+            "Inicializar_variable_|_Instancia_SAP": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "98a2e40e-76f1-4093-835c-8d8ab99a200a"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "UsuarioSAP",
+                "type": "string",
+                "value": "USUARIO_SAP"
+              }
+            ]
+          }
+        },
+        "Inicializar_variable_|_Contraseña_SAP": {
+          "runAfter": {
+            "Inicializar_variable_|_Usuario_SAP": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "69ca9281-b4b9-4e6f-986c-642f58a5712e"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "ContraseniaSAP",
+                "type": "string",
+                "value": "Robotx17,"
+              }
+            ]
+          }
+        },
+        "Inicializar_variable_|_Correos_de_Notificación": {
+          "runAfter": {
+            "Inicializar_variable_|_Contraseña_SAP": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "c9cf2a4a-ce1a-473c-bb0e-5de891cb6f58"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "CorreosNotificacion",
+                "type": "string",
+                "value": "rpa.pedidos@empresa-demo.com"
+              }
+            ]
+          }
+        },
+        "Inicializar_variable_|_Mensaje_de_Error": {
+          "runAfter": {
+            "Inicializar_variable_|_Correos_de_Notificación": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "26c78428-0eff-4acd-b4bf-6fd4477cb408"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "MensajeError",
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "Try_|_Ejecutar_Robot": {
+          "actions": {
+            "Ejecutar_Proceso_PEDIDOS_-_Atendido": {
+              "runAfter": {},
+              "limit": {
+                "timeout": "PT5H30M"
+              },
+              "metadata": {
+                "operationMetadataId": "2cd21f7e-60cb-4686-9469-102f8c7c714a"
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_uiflow_1",
+                  "operationId": "RunUIFlow_V2",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_uiflow"
+                },
+                "parameters": {
+                  "uiFlowId": "2594689f-09ac-ef11-8a69-002248def814",
+                  "runMode": "attended"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            },
+            "Convert_time_zone_2": {
+              "runAfter": {
+                "Ejecutar_Proceso_PEDIDOS_-_Atendido": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "61c3800b-1f3c-4fc6-97aa-1470f104b903"
+              },
+              "type": "Expression",
+              "kind": "ConvertTimeZone",
+              "inputs": {
+                "baseTime": "@{utcNow()}",
+                "formatString": "f",
+                "sourceTimeZone": "SA Pacific Standard Time",
+                "destinationTimeZone": "SA Pacific Standard Time"
+              }
+            }
+          },
+          "runAfter": {
+            "Inicializar_variable_|_Mensaje_de_Error": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "12361a80-89dd-4f3f-80df-e6c9903c311b"
+          },
+          "type": "Scope"
+        },
+        "Catch_|_Ejecutar_Robot": {
+          "actions": {
+            "Parse_JSON_|_Errores": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "d710c5c2-30e7-4f7e-b1c2-281038e5c732"
+              },
+              "type": "ParseJson",
+              "inputs": {
+                "content": "@result('Try_|_Ejecutar_Robot')",
+                "schema": {
+                  "type": "array"
+                }
+              }
+            },
+            "Apply_to_each": {
+              "foreach": "@body('Parse_JSON_|_Errores')",
+              "actions": {
+                "Condition": {
+                  "actions": {
+                    "Set_variable": {
+                      "runAfter": {},
+                      "metadata": {
+                        "operationMetadataId": "58af8dd3-74cd-415d-8837-42d0bc471515"
+                      },
+                      "type": "SetVariable",
+                      "inputs": {
+                        "name": "MensajeError",
+                        "value": "@{if(equals(items('Apply_to_each')?['outputs']?['body']?['error']?['message'], null), items('Apply_to_each')?['error']?['message'], items('Apply_to_each')?['outputs']?['body']?['error']?['message'])}"
+                      }
+                    }
+                  },
+                  "runAfter": {},
+                  "else": {
+                    "actions": {
+                      "Set_variable_2": {
+                        "runAfter": {},
+                        "metadata": {
+                          "operationMetadataId": "58af8dd3-74cd-415d-8837-42d0bc471515"
+                        },
+                        "type": "SetVariable",
+                        "inputs": {
+                          "name": "MensajeError",
+                          "value": "@{body('Parse_JSON_|_Errores')}"
+                        }
+                      }
+                    }
+                  },
+                  "expression": {
+                    "or": [
+                      {
+                        "equals": [
+                          "@items('Apply_to_each')['status']",
+                          "Failed"
+                        ]
+                      },
+                      {
+                        "equals": [
+                          "@items('Apply_to_each')['status']",
+                          "TimeOut"
+                        ]
+                      }
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "d424a8e3-8cbd-4441-8a75-c93368312892"
+                  },
+                  "type": "If"
+                }
+              },
+              "runAfter": {
+                "Parse_JSON_|_Errores": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "f29735b1-e58a-4dda-961a-e881dc4d46fc"
+              },
+              "type": "Foreach"
+            },
+            "Redactar_|_Código_HTML_de_error_flujo_de_la_nube": {
+              "runAfter": {
+                "Apply_to_each": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "e4458432-13de-4ad6-a3fd-d4dfaf83b7a4"
+              },
+              "type": "Compose",
+              "inputs": "<table border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n    <tr>\n        <td>\n            <p style=\"border-top: solid 8px #E20A17; margin: 0px auto; width:100%;\">&nbsp;</p>\n        </td>\n    </tr>\n</table>\n\n<table border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n    <tr>\n        <td align=\"center\" style=\"padding: 20px 0px 0px 0px;\">\n            <p style=\"margin: 0px; color: #000000; font-size: 15px; line-height:32px; font-weight: bold;\">\n                CloudFlow - @{variables('NombreProceso')} | Error en la ejecución del robot\n            </p>\n        </td>\n    </tr>\n</table>\n\n<table border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n    <tr>\n        <td align=\"center\" style=\"padding: 15px;\">\n            <p style=\"margin: 10px 0; font-size: 14px; line-height: 22px; color: #797e82;\">\n                No fue posible iniciar la ejecución del robot debido a un problema de conectividad\n                o disponibilidad de la máquina virtual (PC/MV apagada o no accesible).\n            </p>\n\n            <p style=\"margin: 10px 0; font-size: 13px; line-height: 20px; color: #555555;\">\n                Detalle técnico:\n            </p>\n\n            <p style=\"margin: 0; font-size: 13px; line-height: 20px; color: #555555;\">\n                @{variables('MensajeError')}\n            </p>\n        </td>\n    </tr>\n</table>\n\n<p style=\"color: #6b7280; font-size: 13px; font-style: italic; text-align: center;\">\n    Este mensaje ha sido generado automáticamente por un proceso automatizado y no requiere respuesta.\n</p>\n\n<p style=\"text-align: center;\">\n    <strong>RPA | Orquestación</strong><br>\n    <strong>EMPRESADEMO</strong>\n</p>\n"
+            },
+            "Enviar_correo_electrónico_(V2)": {
+              "runAfter": {
+                "Redactar_|_Código_HTML_de_error_flujo_de_la_nube": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "4319096b-89bd-4af6-b07c-4165c56bde99"
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_office365_1",
+                  "operationId": "SendEmailV2",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+                },
+                "parameters": {
+                  "emailMessage/To": "@variables('CorreoSoporte')",
+                  "emailMessage/Subject": "Error de CloudFlow - @{variables('NombreProceso')} - @{body('Fecha_Hora_Local')}",
+                  "emailMessage/Body": "@outputs('Redactar_|_Código_HTML_de_error_flujo_de_la_nube')",
+                  "emailMessage/Importance": "Normal"
+                },
+                "authentication": "@parameters('$authentication')"
+              }
+            },
+            "Terminate": {
+              "runAfter": {
+                "HTTP": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "6d688a50-8121-4556-8b63-e7df9a3cffee"
+              },
+              "type": "Terminate",
+              "inputs": {
+                "runStatus": "Failed",
+                "runError": {
+                  "code": "Error @{variables('NombreProceso')}",
+                  "message": "@{outputs('Redactar_|_Código_HTML_de_error_flujo_de_la_nube')}"
+                }
+              }
+            },
+            "HTTP": {
+              "runAfter": {
+                "Enviar_correo_electrónico_(V2)": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "39a98df0-046e-4c9c-80d7-53e66051011e"
+              },
+              "type": "Http",
+              "inputs": {
+                "method": "POST",
+                "uri": "@variables('TelegramMensajeAPI')",
+                "body": {
+                  "chat_id": "@{variables('TelegramSoporteChatEmergenciaID')}",
+                  "text": "🚨 *Error Inesperado*\n\n📄 Detalle: @{variables('MensajeError')}\n\n⏱️ Reporte: @{body('Fecha_Hora_Local')}",
+                  "parse_mode": "Markdown",
+                  "disable_web_page_preview": true
+                }
+              }
+            }
+          },
+          "runAfter": {
+            "Try_|_Ejecutar_Robot": [
+              "Failed",
+              "TimedOut"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "a40bda6f-d8d5-43bc-830c-c18d406fb79b"
+          },
+          "type": "Scope"
+        },
+        "CorreoSoporteEmpresaDemo": {
+          "runAfter": {
+            "NombreProceso": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "985b28d1-9826-4f64-abe1-c6b2b4cc6a29"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "CorreoSoporte",
+                "type": "string",
+                "value": "soporte.rpa@empresa-demo.com"
+              }
+            ]
+          }
+        },
+        "NombreProceso": {
+          "runAfter": {
+            "Fecha_Hora_Local": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "49e50c34-6413-4cf4-a8d0-9308f50cc3a7"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "NombreProceso",
+                "type": "string",
+                "value": "PRD-CF-RPA02-PedidosSAP"
+              }
+            ]
+          }
+        },
+        "Fecha_Hora_Local": {
+          "runAfter": {
+            "FechaHoraActualInicio": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "87a32a2a-3894-4259-a396-51bfe4faa572"
+          },
+          "type": "Expression",
+          "kind": "ConvertTimeZone",
+          "inputs": {
+            "baseTime": "@{utcNow()}",
+            "formatString": "g",
+            "sourceTimeZone": "UTC",
+            "destinationTimeZone": "SA Pacific Standard Time"
+          }
+        },
+        "Convert_time_zone": {
+          "runAfter": {
+            "varTelegramMensajeAPI-General": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "fd5af0f6-57ec-4212-bf09-3b785c1a4117"
+          },
+          "type": "Expression",
+          "kind": "ConvertTimeZone",
+          "inputs": {
+            "baseTime": "@{utcNow()}",
+            "formatString": "f",
+            "sourceTimeZone": "SA Pacific Standard Time",
+            "destinationTimeZone": "SA Pacific Standard Time"
+          }
+        },
+        "FechaHoraActualInicio": {
+          "runAfter": {
+            "Convert_time_zone": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "5edb1ee9-5094-4c61-97a4-45c167eee270"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "FechaHoraActualInicio",
+                "type": "string",
+                "value": "@body('Convert_time_zone')"
+              }
+            ]
+          }
+        },
+        "varTelegramToken-Emergencia": {
+          "runAfter": {
+            "varTelegramSoporteChatID-Emergencia": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "05698a68-a81d-4c16-b72c-370d5bf3e6e2"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "TelegramEmergenciaToken",
+                "type": "string",
+                "value": "0000000000:TOKEN_DEMO"
+              }
+            ]
+          }
+        },
+        "varTelegramMensajeAPI-General": {
+          "runAfter": {
+            "varTelegramToken-Emergencia": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "4a1cd3c7-5e4d-4e80-8325-b912fac934cc"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "TelegramMensajeAPI",
+                "type": "string",
+                "value": "https://api.telegram.org/bot@{variables('TelegramEmergenciaToken')}/sendMessage"
+              }
+            ]
+          }
+        },
+        "varTelegramSoporteChatID-Emergencia": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "db0683e6-ab9a-4297-b8b9-4e03c2f60c02"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "TelegramSoporteChatEmergenciaID",
+                "type": "string",
+                "value": "-1009999999999"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

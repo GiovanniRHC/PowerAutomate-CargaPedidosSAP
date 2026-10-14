@@ -1,0 +1,322 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_uiflow_1": {
+        "api": {
+          "name": "shared_uiflow"
+        },
+        "connection": {
+          "connectionReferenceLogicalName": "new_FlujoEscritorio_Demo_PRD"
+        },
+        "runtimeSource": "invoker"
+      },
+      "shared_office365_1": {
+        "api": {
+          "name": "shared_office365"
+        },
+        "connection": {
+          "connectionReferenceLogicalName": "new_O365Outlook_Demo"
+        },
+        "runtimeSource": "invoker"
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "type": "Request",
+          "kind": "Button",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {},
+              "required": []
+            }
+          },
+          "metadata": {
+            "operationMetadataId": "34c267df-968d-4a82-80af-e6d54f0adf73"
+          }
+        }
+      },
+      "actions": {
+        "Inicializar_variable_|_Instancia_SAP": {
+          "type": "InitializeVariable",
+          "description": " 0: Acceso a QA, 1: Acceso a PRD",
+          "inputs": {
+            "variables": [
+              {
+                "name": "InstanciaSAP",
+                "type": "string",
+                "value": "1"
+              }
+            ]
+          },
+          "runAfter": {
+            "Fecha_Hora_Actual": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "4bb1399f-cd12-48dd-b83a-395eb8912164"
+          }
+        },
+        "Inicializar_variable_|_Usuario_SAP": {
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "UsuarioSAP",
+                "type": "string",
+                "value": "USUARIO_SAP"
+              }
+            ]
+          },
+          "runAfter": {
+            "Inicializar_variable_|_Instancia_SAP": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "98a2e40e-76f1-4093-835c-8d8ab99a200a"
+          }
+        },
+        "Inicializar_variable_|_Contraseña_SAP": {
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "ContraseniaSAP",
+                "type": "string",
+                "value": "Robot015,"
+              }
+            ]
+          },
+          "runAfter": {
+            "Inicializar_variable_|_Usuario_SAP": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "69ca9281-b4b9-4e6f-986c-642f58a5712e"
+          }
+        },
+        "Inicializar_variable_|_Correos_de_Notificación": {
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "CorreosNotificacion",
+                "type": "string",
+                "value": "usuario1@empresa-demo.com;rpa.pedidos@empresa-demo.com"
+              }
+            ]
+          },
+          "runAfter": {
+            "Inicializar_variable_|_Contraseña_SAP": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "c9cf2a4a-ce1a-473c-bb0e-5de891cb6f58"
+          }
+        },
+        "Inicializar_variable_|_Mensaje_de_Error": {
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "MensajeError",
+                "type": "string"
+              }
+            ]
+          },
+          "runAfter": {
+            "Inicializar_variable_|_Correos_de_Notificación": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "26c78428-0eff-4acd-b4bf-6fd4477cb408"
+          }
+        },
+        "Try_|_Ejecutar_Robot": {
+          "type": "Scope",
+          "actions": {
+            "Ejecutar_Proceso_PEDIDOS_-_Atendido": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "uiFlowId": "2594689f-09ac-ef11-8a69-002248def814",
+                  "runMode": "attended",
+                  "item/ContraseniaSAP": "@variables('ContraseniaSAP')",
+                  "item/CorreosNotificacion": "@variables('CorreosNotificacion')",
+                  "item/InstanciaSAP": "@variables('InstanciaSAP')",
+                  "item/UsuarioSAP": "@variables('UsuarioSAP')"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_uiflow",
+                  "operationId": "RunUIFlow_V2",
+                  "connectionName": "shared_uiflow_1"
+                }
+              },
+              "limit": {
+                "timeout": "PT1H30M"
+              },
+              "metadata": {
+                "operationMetadataId": "2cd21f7e-60cb-4686-9469-102f8c7c714a"
+              }
+            }
+          },
+          "runAfter": {
+            "Inicializar_variable_|_Mensaje_de_Error": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "12361a80-89dd-4f3f-80df-e6c9903c311b"
+          }
+        },
+        "Catch_|_Ejecutar_Robot": {
+          "type": "Scope",
+          "actions": {
+            "Parse_JSON_|_Errores": {
+              "type": "ParseJson",
+              "inputs": {
+                "content": "@result('Try_|_Ejecutar_Robot')",
+                "schema": {
+                  "type": "array"
+                }
+              },
+              "metadata": {
+                "operationMetadataId": "d710c5c2-30e7-4f7e-b1c2-281038e5c732"
+              }
+            },
+            "Apply_to_each": {
+              "type": "Foreach",
+              "foreach": "@body('Parse_JSON_|_Errores')",
+              "actions": {
+                "Condition": {
+                  "type": "If",
+                  "expression": {
+                    "or": [
+                      {
+                        "equals": [
+                          "@items('Apply_to_each')['status']",
+                          "Failed"
+                        ]
+                      },
+                      {
+                        "equals": [
+                          "@items('Apply_to_each')['status']",
+                          "TimeOut"
+                        ]
+                      }
+                    ]
+                  },
+                  "actions": {
+                    "Set_variable": {
+                      "type": "SetVariable",
+                      "inputs": {
+                        "name": "MensajeError",
+                        "value": "@{if(equals(items('Apply_to_each')?['outputs']?['body']?['error']?['message'], null), items('Apply_to_each')?['error']?['message'], items('Apply_to_each')?['outputs']?['body']?['error']?['message'])}"
+                      },
+                      "metadata": {
+                        "operationMetadataId": "58af8dd3-74cd-415d-8837-42d0bc471515"
+                      }
+                    }
+                  },
+                  "else": {
+                    "actions": {}
+                  },
+                  "metadata": {
+                    "operationMetadataId": "d424a8e3-8cbd-4441-8a75-c93368312892"
+                  }
+                }
+              },
+              "runAfter": {
+                "Parse_JSON_|_Errores": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "f29735b1-e58a-4dda-961a-e881dc4d46fc"
+              }
+            },
+            "Redactar_|_Código_HTML_de_error_flujo_de_la_nube": {
+              "type": "Compose",
+              "inputs": "<!doctype html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\"\n    xmlns:o=\"urn:schemas-microsoft-com:office:office\">\n\n<head>\n    <title></title>\n\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n</head>\n\n<body style=\"font-size:13px; font-family:Open Sans, Helvetica, Arial, sans-serif;\">\n\n    <div style=\"width: 600px; margin: 0px auto; background-color: #f8f8f8;\">\n        <br/>\n\n        <div style=\"width: 100%; margin: 0px auto; background-color: #ffffff;\">\n\n            <table border=\"0\" width=\"100%\" cellspacing=\"0\">\n                <tr>\n                    <td>\n                        <p style=\"border-top:solid 8px #E20A17; margin: 0px auto; width:100%;\">&nbsp;</p>\n                    </td>\n                </tr>\n            </table>\n\n            <table border=\"0\" width=\"100%\" cellspacing=\"0\">\n                <tr>\n                    <td align=\"center\" style=\"padding: 20px 0px 0px 0px;\">\n                        <p style=\"margin: 0px; color: #000000; font-size: 15px; line-height:32px; font-weight: bold;\">Ocurrió un error al ejecutar el robot</p>\n                    </td>\n                </tr>\n            </table>\n\n            <table border=\"0\" width=\"100%\" cellspacing=\"0\">\n                <tr>\n                    <td align=\"center\" style=\"padding: 10px;\">\n\n                        <p style=\"margin: 10px 0; font-size: 20px; line-height: 25px; color: #797e82;\">@{variables('MensajeError')}</p>\n\n                    </td>\n                </tr>\n            </table>\n        </div>\n        \n        <br/>\n    </div>\n\n</body>\n\n</html>",
+              "runAfter": {
+                "Apply_to_each": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "e4458432-13de-4ad6-a3fd-d4dfaf83b7a4"
+              }
+            },
+            "Enviar_correo_electrónico_(V2)": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "emailMessage/To": "@variables('CorreosNotificacion')",
+                  "emailMessage/Subject": "Reporte Flujo PEDIDOS - @{body('Fecha_Hora_Actual')}",
+                  "emailMessage/Body": "@outputs('Redactar_|_Código_HTML_de_error_flujo_de_la_nube')",
+                  "emailMessage/Importance": "Normal"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                  "operationId": "SendEmailV2",
+                  "connectionName": "shared_office365_1"
+                }
+              },
+              "runAfter": {
+                "Redactar_|_Código_HTML_de_error_flujo_de_la_nube": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "4319096b-89bd-4af6-b07c-4165c56bde99"
+              }
+            }
+          },
+          "runAfter": {
+            "Try_|_Ejecutar_Robot": [
+              "Failed",
+              "TimedOut"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "a40bda6f-d8d5-43bc-830c-c18d406fb79b"
+          }
+        },
+        "Fecha_Hora_Actual": {
+          "type": "Expression",
+          "kind": "ConvertTimeZone",
+          "inputs": {
+            "baseTime": "@{utcNow()}",
+            "sourceTimeZone": "UTC",
+            "destinationTimeZone": "SA Pacific Standard Time",
+            "formatString": "g"
+          },
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "a4d14770-ba1b-4062-8b84-385758f0cef8"
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

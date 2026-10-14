@@ -1,0 +1,3640 @@
+{
+  "Screens": [
+    {
+      "Controls": [
+        {
+          "AutomationProtocol": "uia3",
+          "ScreenShot": null,
+          "ElementTypeName": "Button",
+          "InstanceId": "a5c21e2e-e5c0-4f10-99b9-d44bf68fc475",
+          "Name": "Button 'Cerrar'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Title Bar",
+                  "Tag": "titlebar"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "IsDefault",
+                      "Operation": "EqualTo",
+                      "Value": false
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "Cerrar"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Button 'Cerrar'",
+                  "Tag": "button"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "button",
+          "ScreenshotPath": "controlRepo-screenshots\\85324d9c-0fe4-4173-bfe1-c6b2d0b45d40.png"
+        },
+        {
+          "AutomationProtocol": "uia3",
+          "ScreenShot": null,
+          "ElementTypeName": "Text",
+          "InstanceId": "d4aac185-4576-4162-bffd-df9bd0728454",
+          "Name": "Text 'AWS-S4HANA-QAS'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "AfxOleControl140"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "329344217"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Process",
+                      "Operation": "EqualTo",
+                      "Value": "saplogon"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Pane 'AfxOleControl140'",
+                  "Tag": "pane"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "AfxMDIFrame140"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "59648"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Process",
+                      "Operation": "EqualTo",
+                      "Value": "saplogon"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Pane 'AfxMDIFrame140'",
+                  "Tag": "pane"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "AfxFrameOrView140"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "59648"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Process",
+                      "Operation": "EqualTo",
+                      "Value": "saplogon"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Pane 'AfxFrameOrView140'",
+                  "Tag": "pane"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "Afx:00DA0000:0"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "5003"
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "myContainer"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Process",
+                      "Operation": "EqualTo",
+                      "Value": "saplogon"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Pane 'myContainer'",
+                  "Tag": "pane"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "SysListView32"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "1008"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "List 'SysListView32'",
+                  "Tag": "list"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Checked",
+                      "Operation": "EqualTo",
+                      "Value": null
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "ListViewItem-0"
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "AWS-S4HANA-QAS"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Selected",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "List Item 'AWS-S4HANA-QAS'",
+                  "Tag": "listitem"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "ListViewSubItem-0"
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "AWS-S4HANA-QAS"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Password",
+                      "Operation": "EqualTo",
+                      "Value": false
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Text 'AWS-S4HANA-QAS'",
+                  "Tag": "text"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "text",
+          "ScreenshotPath": "controlRepo-screenshots\\6cc2dab4-2c6f-4e65-a252-2c958ad9ccc4.png"
+        },
+        {
+          "AutomationProtocol": "uia3",
+          "ScreenShot": null,
+          "ElementTypeName": "Text",
+          "InstanceId": "7d38e0ba-1b81-4e00-b1ff-a2f2940c85c5",
+          "Name": "Text 'AWS-S4HANA-PRD'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "AfxOleControl140"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "126446209"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Process",
+                      "Operation": "EqualTo",
+                      "Value": "saplogon"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Pane 'AfxOleControl140'",
+                  "Tag": "pane"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "AfxMDIFrame140"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "59648"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Process",
+                      "Operation": "EqualTo",
+                      "Value": "saplogon"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Pane 'AfxMDIFrame140'",
+                  "Tag": "pane"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "AfxFrameOrView140"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "59648"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Process",
+                      "Operation": "EqualTo",
+                      "Value": "saplogon"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Pane 'AfxFrameOrView140'",
+                  "Tag": "pane"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "Afx:80942765:0"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "5003"
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "myContainer"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Process",
+                      "Operation": "EqualTo",
+                      "Value": "saplogon"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Pane 'myContainer'",
+                  "Tag": "pane"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "SysListView32"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "1008"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "List 'SysListView32'",
+                  "Tag": "list"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Checked",
+                      "Operation": "EqualTo",
+                      "Value": null
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "ListViewItem-0"
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "AWS-S4HANA-PRD"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Selected",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "List Item 'AWS-S4HANA-QAS'",
+                  "Tag": "listitem"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "ListViewSubItem-0"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "AWS-S4HANA-QAS"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Password",
+                      "Operation": "EqualTo",
+                      "Value": false
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Text 'AWS-S4HANA-QAS'",
+                  "Tag": "text"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "text",
+          "ScreenshotPath": "controlRepo-screenshots\\a0f628cc-5775-4ea4-8a7a-dbd25e64adff.png"
+        }
+      ],
+      "Handle": {
+        "value": 0
+      },
+      "ProcessName": null,
+      "ScreenShot": null,
+      "ElementTypeName": "Window",
+      "InstanceId": "80ee697f-2b3e-44d1-ab4d-7e215ad9e0ed",
+      "Name": "Window 'SAP Logon 760'",
+      "SelectorCount": 1,
+      "Selectors": [
+        {
+          "CustomSelector": null,
+          "Elements": [
+            {
+              "Attributes": [
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Class",
+                  "Operation": "EqualTo",
+                  "Value": "#32770"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Enabled",
+                  "Operation": "EqualTo",
+                  "Value": true
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Id",
+                  "Operation": "EqualTo",
+                  "Value": ""
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Name",
+                  "Operation": "EqualTo",
+                  "Value": "SAP Logon 760"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": true,
+                  "IsDisabledAttribute": false,
+                  "Name": "Ordinal",
+                  "Operation": "EqualTo",
+                  "Value": 0
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Process",
+                  "Operation": "EqualTo",
+                  "Value": "saplogon"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Visible",
+                  "Operation": "EqualTo",
+                  "Value": true
+                }
+              ],
+              "CustomValue": null,
+              "Ignore": false,
+              "Name": "Window 'SAP Logon 760'",
+              "Tag": "window"
+            }
+          ],
+          "Ignore": false,
+          "ImageSelector": null,
+          "IsCustom": false,
+          "IsImageBased": false,
+          "IsPlaceholderSelector": false,
+          "IsWindowsInstance": false,
+          "Name": "Default Selector",
+          "Properties": []
+        }
+      ],
+      "Tag": "window",
+      "ScreenshotPath": "controlRepo-screenshots\\66e8623e-675e-43ee-a346-ac89e9cde4bd.png"
+    },
+    {
+      "Controls": [],
+      "Handle": {
+        "value": 0
+      },
+      "ProcessName": null,
+      "ScreenShot": null,
+      "ElementTypeName": "Window",
+      "InstanceId": "2bce3596-cf1c-4f9b-a2f3-cbe57c90160e",
+      "Name": "Window 'SAP Login'",
+      "SelectorCount": 1,
+      "Selectors": [
+        {
+          "CustomSelector": null,
+          "Elements": [
+            {
+              "Attributes": [
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Class",
+                  "Operation": "EqualTo",
+                  "Value": "SAP_FRONTEND_SESSION"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Enabled",
+                  "Operation": "EqualTo",
+                  "Value": true
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Id",
+                  "Operation": "EqualTo",
+                  "Value": ""
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Name",
+                  "Operation": "EqualTo",
+                  "Value": "SAP"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": true,
+                  "IsDisabledAttribute": false,
+                  "Name": "Ordinal",
+                  "Operation": "EqualTo",
+                  "Value": 0
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Process",
+                  "Operation": "EqualTo",
+                  "Value": "saplogon"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Visible",
+                  "Operation": "EqualTo",
+                  "Value": true
+                }
+              ],
+              "CustomValue": null,
+              "Ignore": false,
+              "Name": "Window 'SAP'",
+              "Tag": "window"
+            }
+          ],
+          "Ignore": false,
+          "ImageSelector": null,
+          "IsCustom": false,
+          "IsImageBased": false,
+          "IsPlaceholderSelector": false,
+          "IsWindowsInstance": false,
+          "Name": "Default Selector",
+          "Properties": []
+        }
+      ],
+      "Tag": "window",
+      "ScreenshotPath": "controlRepo-screenshots\\3314a3a8-f535-41c3-8d24-a331fec4c342.png"
+    },
+    {
+      "Controls": [
+        {
+          "AutomationProtocol": "uia3",
+          "ScreenShot": null,
+          "ElementTypeName": "Button",
+          "InstanceId": "c12a2773-2278-43dd-91c3-341de01efe84",
+          "Name": "Button 'Maximizar'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "TitleBar"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Title Bar",
+                  "Tag": "titlebar"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "Maximize-Restore"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "IsDefault",
+                      "Operation": "EqualTo",
+                      "Value": false
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "Maximizar"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Button 'Maximizar'",
+                  "Tag": "button"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "button",
+          "ScreenshotPath": "controlRepo-screenshots\\7196558e-8ae1-410d-83c0-cf27ba430eda.png"
+        },
+        {
+          "AutomationProtocol": "sap",
+          "ScreenShot": null,
+          "ElementTypeName": "Gui Ok Code Field",
+          "InstanceId": "e759254a-dfbb-4f3e-add3-46f0d8b062c1",
+          "Name": "Gui Ok Code Field 'okcd'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "SAP Easy Access"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Main Window 'wnd[0]'",
+                  "Tag": "GuiMainWindow"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]/tbar[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "tbar[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Toolbar 'tbar[0]'",
+                  "Tag": "GuiToolbar"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]/tbar[0]/okcd"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "okcd"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Ok Code Field 'okcd'",
+                  "Tag": "GuiOkCodeField"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "GuiOkCodeField",
+          "ScreenshotPath": "controlRepo-screenshots\\e2af2033-1ebb-4bdb-a1b0-b9f02668cb0a.png"
+        },
+        {
+          "AutomationProtocol": "sap",
+          "ScreenShot": null,
+          "ElementTypeName": "Gui Modal Window",
+          "InstanceId": "a3abf475-5747-408f-b0e2-9a1bba55da01",
+          "Name": "Gui Modal 'Salir del sistema'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": false
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "SAP Easy Access"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Main Window 'wnd[0]'",
+                  "Tag": "GuiMainWindow"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[1]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[1]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Salir del sistema"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Modal Window 'wnd[1]'",
+                  "Tag": "GuiModalWindow"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "GuiModalWindow",
+          "ScreenshotPath": "controlRepo-screenshots\\e7b5ecb8-b050-4577-8f66-44447a9660d7.png"
+        },
+        {
+          "AutomationProtocol": "sap",
+          "ScreenShot": null,
+          "ElementTypeName": "Gui Button",
+          "InstanceId": "dfaab355-c2b3-4dca-b55c-f2a69d3fbb82",
+          "Name": "Gui Button 'Si'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": false
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "SAP Easy Access"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Main Window 'wnd[0]'",
+                  "Tag": "GuiMainWindow"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[1]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[1]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Salir del sistema"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Modal Window 'wnd[1]'",
+                  "Tag": "GuiModalWindow"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[1]/usr"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "usr"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui User Area 'usr'",
+                  "Tag": "GuiUserArea"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[1]/usr/btnSPOP-OPTION1"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "SPOP-OPTION1"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Sí"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Button 'SPOP-OPTION1'",
+                  "Tag": "GuiButton"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "GuiButton",
+          "ScreenshotPath": "controlRepo-screenshots\\89fef463-8478-4335-b559-3eb1c95d7764.png"
+        }
+      ],
+      "Handle": {
+        "value": 0
+      },
+      "ProcessName": null,
+      "ScreenShot": null,
+      "ElementTypeName": "Window",
+      "InstanceId": "269bb10a-30c8-4838-8a64-daf026f4cf8d",
+      "Name": "Window 'SAP Easy Access'",
+      "SelectorCount": 1,
+      "Selectors": [
+        {
+          "CustomSelector": null,
+          "Elements": [
+            {
+              "Attributes": [
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Class",
+                  "Operation": "EqualTo",
+                  "Value": "SAP_FRONTEND_SESSION"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Enabled",
+                  "Operation": "EqualTo",
+                  "Value": true
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Id",
+                  "Operation": "EqualTo",
+                  "Value": ""
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Name",
+                  "Operation": "EqualTo",
+                  "Value": "SAP Easy Access"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": true,
+                  "IsDisabledAttribute": false,
+                  "Name": "Ordinal",
+                  "Operation": "EqualTo",
+                  "Value": 0
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Process",
+                  "Operation": "EqualTo",
+                  "Value": "saplogon"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Visible",
+                  "Operation": "EqualTo",
+                  "Value": true
+                }
+              ],
+              "CustomValue": null,
+              "Ignore": false,
+              "Name": "Window 'SAP Easy Access'",
+              "Tag": "window"
+            }
+          ],
+          "Ignore": false,
+          "ImageSelector": null,
+          "IsCustom": false,
+          "IsImageBased": false,
+          "IsPlaceholderSelector": false,
+          "IsWindowsInstance": false,
+          "Name": "Default Selector",
+          "Properties": []
+        }
+      ],
+      "Tag": "window",
+      "ScreenshotPath": "controlRepo-screenshots\\14b57332-324a-436f-869a-09bad9e2c356.png"
+    },
+    {
+      "Controls": [
+        {
+          "AutomationProtocol": "uia3",
+          "ScreenShot": null,
+          "ElementTypeName": "Window",
+          "InstanceId": "21ab5ba8-5936-49a2-a71f-4ee2b25f4fdd",
+          "Name": "Window 'Buscar variante'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "#32770"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "Buscar variante"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Process",
+                      "Operation": "EqualTo",
+                      "Value": "saplogon"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Window 'Buscar variante'",
+                  "Tag": "window"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "window",
+          "ScreenshotPath": "controlRepo-screenshots\\4ed9704a-93ff-49d6-b8a8-ed109a2bbe92.png"
+        },
+        {
+          "AutomationProtocol": "sap",
+          "ScreenShot": null,
+          "ElementTypeName": "Gui Statusbar",
+          "InstanceId": "96357ea6-01c8-4a5e-b98b-7649c452886d",
+          "Name": "Gui Statusbar 'sbar'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Proceso de Intercompany"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Main Window 'wnd[0]'",
+                  "Tag": "GuiMainWindow"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": false
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]/sbar"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "sbar"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "No se encontró información para usuario USUARIO_SAP"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Statusbar 'sbar'",
+                  "Tag": "GuiStatusbar"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "GuiStatusbar",
+          "ScreenshotPath": "controlRepo-screenshots\\08ff95cc-dc99-4f99-b334-892d843d9097.png"
+        },
+        {
+          "AutomationProtocol": "sap",
+          "ScreenShot": null,
+          "ElementTypeName": "Gui User Area",
+          "InstanceId": "dc27ccc7-94ab-4fff-802c-190de49b6094",
+          "Name": "Gui User Area 'usr'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Proceso de Intercompany"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Gui Main Window 'wnd[0]'",
+                  "Tag": "GuiMainWindow"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]/usr"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "usr"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui User Area 'usr'",
+                  "Tag": "GuiUserArea"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "GuiUserArea",
+          "ScreenshotPath": "controlRepo-screenshots\\158a3f26-abd4-4394-814f-8ef1dc082ec4.png"
+        },
+        {
+          "AutomationProtocol": "sap",
+          "ScreenShot": null,
+          "ElementTypeName": "Gui Main Window",
+          "InstanceId": "cb117f41-9b18-4231-a9b8-3fb295762219",
+          "Name": "Gui Main Window 'wnd[0]'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Proceso de Intercompany"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Main Window 'wnd[0]'",
+                  "Tag": "GuiMainWindow"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "GuiMainWindow",
+          "ScreenshotPath": "controlRepo-screenshots\\e04a60b1-0bf6-4de1-8f71-abfdcadb0a15.png"
+        },
+        {
+          "AutomationProtocol": "sap",
+          "ScreenShot": null,
+          "ElementTypeName": "Gui Main Window",
+          "InstanceId": "0cb29985-ab36-48f9-8475-5e665605bc6e",
+          "Name": "Gui Main Window 'wnd[0]' 2",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Proceso de Intercompany"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Main Window 'wnd[0]'",
+                  "Tag": "GuiMainWindow"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "GuiMainWindow",
+          "ScreenshotPath": "controlRepo-screenshots\\6e654a67-8a2d-47a9-ad48-1dc2db4f56f6.png"
+        },
+        {
+          "AutomationProtocol": "sap",
+          "ScreenShot": null,
+          "ElementTypeName": "Gui Button",
+          "InstanceId": "a0731269-0552-4320-8ba2-79e2e752e91b",
+          "Name": "Gui Button Ejecutar 'F8'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Proceso de Intercompany"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Main Window 'wnd[0]'",
+                  "Tag": "GuiMainWindow"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]/tbar[1]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "tbar[1]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Toolbar 'tbar[1]'",
+                  "Tag": "GuiToolbar"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]/tbar[1]/btn[8]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "btn[8]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Button 'btn[8]'",
+                  "Tag": "GuiButton"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "GuiButton",
+          "ScreenshotPath": "controlRepo-screenshots\\db8e1870-3612-422a-8b2e-568c8f67184c.png"
+        },
+        {
+          "AutomationProtocol": "sap",
+          "ScreenShot": null,
+          "ElementTypeName": "Gui Main Window",
+          "InstanceId": "cc1f8228-889b-4581-bea0-0606253f33c4",
+          "Name": "Gui Main Window 'wnd[0]' 3",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Proceso de Intercompany"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Main Window 'wnd[0]'",
+                  "Tag": "GuiMainWindow"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "GuiMainWindow",
+          "ScreenshotPath": "controlRepo-screenshots\\ef616f27-e9d4-4c9e-b83f-49a30a92eb6b.png"
+        }
+      ],
+      "Handle": {
+        "value": 0
+      },
+      "ProcessName": null,
+      "ScreenShot": null,
+      "ElementTypeName": "Window",
+      "InstanceId": "8e0534b7-0e7c-4899-b368-e0846388def3",
+      "Name": "Window 'Proceso de Intercompany'",
+      "SelectorCount": 1,
+      "Selectors": [
+        {
+          "CustomSelector": null,
+          "Elements": [
+            {
+              "Attributes": [
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Class",
+                  "Operation": "EqualTo",
+                  "Value": "SAP_FRONTEND_SESSION"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Enabled",
+                  "Operation": "EqualTo",
+                  "Value": true
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Id",
+                  "Operation": "EqualTo",
+                  "Value": ""
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Name",
+                  "Operation": "EqualTo",
+                  "Value": "Proceso de Intercompany"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": true,
+                  "IsDisabledAttribute": false,
+                  "Name": "Ordinal",
+                  "Operation": "EqualTo",
+                  "Value": 0
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Process",
+                  "Operation": "EqualTo",
+                  "Value": "saplogon"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Visible",
+                  "Operation": "EqualTo",
+                  "Value": true
+                }
+              ],
+              "CustomValue": null,
+              "Ignore": false,
+              "Name": "Window 'Proceso de Intercompany'",
+              "Tag": "window"
+            }
+          ],
+          "Ignore": false,
+          "ImageSelector": null,
+          "IsCustom": false,
+          "IsImageBased": false,
+          "IsPlaceholderSelector": false,
+          "IsWindowsInstance": false,
+          "Name": "Default Selector",
+          "Properties": []
+        }
+      ],
+      "Tag": "window",
+      "ScreenshotPath": "controlRepo-screenshots\\1712d801-dc40-430d-8107-4222381f4c34.png"
+    },
+    {
+      "Controls": [
+        {
+          "AutomationProtocol": "uia3",
+          "ScreenShot": null,
+          "ElementTypeName": "Edit",
+          "InstanceId": "ec16fe73-6bae-4797-8cf2-479dc4cbf769",
+          "Name": "Edit 'Transaccion'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "Afx:49670540:8:52652644:00000000:00000000"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "400"
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "AppToolbar"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Process",
+                      "Operation": "EqualTo",
+                      "Value": "saplogon"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Pane 'AppToolbar'",
+                  "Tag": "pane"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "ComboBox"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "200"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": true,
+                  "Name": "Combo Box 'ComboBox'",
+                  "Tag": "combobox"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Class",
+                      "Operation": "EqualTo",
+                      "Value": "Edit"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "1001"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Password",
+                      "Operation": "EqualTo",
+                      "Value": false
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Edit 'Edit'",
+                  "Tag": "edit"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "edit",
+          "ScreenshotPath": "controlRepo-screenshots\\9bcb22bf-7d0a-45c1-a120-e831abca9cbc.png"
+        }
+      ],
+      "Handle": {
+        "value": 0
+      },
+      "ProcessName": null,
+      "ScreenShot": null,
+      "ElementTypeName": "Window",
+      "InstanceId": "7c25b114-1ccb-461b-b528-3f66ad06e9d9",
+      "Name": "Window 'Inicio'",
+      "SelectorCount": 1,
+      "Selectors": [
+        {
+          "CustomSelector": null,
+          "Elements": [
+            {
+              "Attributes": [
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Class",
+                  "Operation": "EqualTo",
+                  "Value": "SAP_FRONTEND_SESSION"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Enabled",
+                  "Operation": "EqualTo",
+                  "Value": true
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Id",
+                  "Operation": "EqualTo",
+                  "Value": ""
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Name",
+                  "Operation": "EqualTo",
+                  "Value": "SAP Easy Access"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": true,
+                  "IsDisabledAttribute": false,
+                  "Name": "Ordinal",
+                  "Operation": "EqualTo",
+                  "Value": 0
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Process",
+                  "Operation": "EqualTo",
+                  "Value": "saplogon"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Visible",
+                  "Operation": "EqualTo",
+                  "Value": true
+                }
+              ],
+              "CustomValue": null,
+              "Ignore": false,
+              "Name": "Window 'SAP Easy Access'",
+              "Tag": "window"
+            }
+          ],
+          "Ignore": false,
+          "ImageSelector": null,
+          "IsCustom": false,
+          "IsImageBased": false,
+          "IsPlaceholderSelector": false,
+          "IsWindowsInstance": false,
+          "Name": "Default Selector",
+          "Properties": []
+        }
+      ],
+      "Tag": "window",
+      "ScreenshotPath": "controlRepo-screenshots\\cf016b6b-08e1-47f8-baa3-baf26c908faf.png"
+    },
+    {
+      "Controls": [
+        {
+          "AutomationProtocol": "sap",
+          "ScreenShot": null,
+          "ElementTypeName": "Gui Text Field",
+          "InstanceId": "41424293-c4ab-4a35-9e28-b4aebca29585",
+          "Name": "Gui Text Field 'MESSTXT1'",
+          "SelectorCount": 1,
+          "Selectors": [
+            {
+              "CustomSelector": null,
+              "Elements": [
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[0]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "SAP"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Main Window 'wnd[0]'",
+                  "Tag": "GuiMainWindow"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[1]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[1]"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Información"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Modal Window 'wnd[1]'",
+                  "Tag": "GuiModalWindow"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[1]/usr"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "usr"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": ""
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui User Area 'usr'",
+                  "Tag": "GuiUserArea"
+                },
+                {
+                  "Attributes": [
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Enabled",
+                      "Operation": "EqualTo",
+                      "Value": false
+                    },
+                    {
+                      "Ignore": false,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Id",
+                      "Operation": "EqualTo",
+                      "Value": "wnd[1]/usr/txtMESSTXT1"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Name",
+                      "Operation": "EqualTo",
+                      "Value": "MESSTXT1"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": true,
+                      "IsDisabledAttribute": false,
+                      "Name": "Ordinal",
+                      "Operation": "EqualTo",
+                      "Value": 0
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Text",
+                      "Operation": "EqualTo",
+                      "Value": "Cantidad de intentos de inicio de sesión fallidos:"
+                    },
+                    {
+                      "Ignore": true,
+                      "IsOrdinal": false,
+                      "IsDisabledAttribute": false,
+                      "Name": "Visible",
+                      "Operation": "EqualTo",
+                      "Value": true
+                    }
+                  ],
+                  "CustomValue": null,
+                  "Ignore": false,
+                  "Name": "Gui Text Field 'MESSTXT1'",
+                  "Tag": "GuiTextField"
+                }
+              ],
+              "Ignore": false,
+              "ImageSelector": null,
+              "IsCustom": false,
+              "IsImageBased": false,
+              "IsPlaceholderSelector": false,
+              "IsWindowsInstance": false,
+              "Name": "Default Selector",
+              "Properties": []
+            }
+          ],
+          "Tag": "GuiTextField",
+          "ScreenshotPath": "controlRepo-screenshots\\cd4edf3b-492d-46eb-9f3d-05e84b19d069.png"
+        }
+      ],
+      "Handle": {
+        "value": 0
+      },
+      "ProcessName": null,
+      "ScreenShot": null,
+      "ElementTypeName": "Window",
+      "InstanceId": "a424b0d9-094a-4058-ac9f-c02cc2246fc9",
+      "Name": "Window 'SAP'",
+      "SelectorCount": 1,
+      "Selectors": [
+        {
+          "CustomSelector": null,
+          "Elements": [
+            {
+              "Attributes": [
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Class",
+                  "Operation": "EqualTo",
+                  "Value": "SAP_FRONTEND_SESSION"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Enabled",
+                  "Operation": "EqualTo",
+                  "Value": false
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Id",
+                  "Operation": "EqualTo",
+                  "Value": ""
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Name",
+                  "Operation": "EqualTo",
+                  "Value": "SAP"
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": true,
+                  "IsDisabledAttribute": false,
+                  "Name": "Ordinal",
+                  "Operation": "EqualTo",
+                  "Value": 0
+                },
+                {
+                  "Ignore": false,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Process",
+                  "Operation": "EqualTo",
+                  "Value": "saplogon"
+                },
+                {
+                  "Ignore": true,
+                  "IsOrdinal": false,
+                  "IsDisabledAttribute": false,
+                  "Name": "Visible",
+                  "Operation": "EqualTo",
+                  "Value": true
+                }
+              ],
+              "CustomValue": null,
+              "Ignore": false,
+              "Name": "Window 'SAP'",
+              "Tag": "window"
+            }
+          ],
+          "Ignore": false,
+          "ImageSelector": null,
+          "IsCustom": false,
+          "IsImageBased": false,
+          "IsPlaceholderSelector": false,
+          "IsWindowsInstance": false,
+          "Name": "Default Selector",
+          "Properties": []
+        }
+      ],
+      "Tag": "window",
+      "ScreenshotPath": "controlRepo-screenshots\\df4fc006-d14d-46b2-9a86-509d6cdc423a.png"
+    }
+  ],
+  "Version": 1
+}
